@@ -1,0 +1,82 @@
+h2 {
+    font-family: Georgia, serif;
+    color: wheat;
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    color:wheat;
+    text-align: center;
+}
+
+h4 {
+    font-family: Georgia, serif;
+    color: wheat;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, serif;
+    color: wheat;
+    text-align: center;
+}
+
+body {
+    background-color: darkslategrey;
+    border: 4px dashed #FFFFFF;
+}
+
+ul {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+Img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.table4 {
+    border: 6px solid #948473;
+    background-color: #FFE3C6;
+    width: 100%;
+    text-align: center;
+}
+
+table.table4 tbody td {
+    font-size: 13px;
+}
+
+table.table4 thead {
+    background: #948473;
+    background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: linear-gradient(to bottom, #afa396 0%, #9e9081 100%);
+}
+table.table4 thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-align: center;
+    border-left: 2px solid #948473;
+}
+
+table.table4 thead th:first-child {
+    border-left: none;
+}
+
+table.table4 tfoot {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background: #948473;
+    background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: linear-gradient(to bottom, #afa396 0%, #9e9081 100%);
+}
+
+table.table4 tfoot td {
+    font-size: 16px;
+}
